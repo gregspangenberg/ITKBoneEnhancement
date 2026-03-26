@@ -25,6 +25,8 @@ set(BoneEnhancementUnitTests
   itkDescoteauxEigenToMeasureParameterEstimationFilterUnitTest.cxx
   itkDescoteauxEigenToMeasureImageFilterUnitTest.cxx
   itkKrcahEigenToMeasureParameterEstimationFilterUnitTest.cxx
+  itkCalgaryEigenToMeasureImageFilterUnitTest.cxx
+  itkCalgaryEigenToMeasureParameterEstimationFilterUnitTest.cxx
   )
 
 CreateGoogleTestDriver(BoneEnhancementUnitTests "${BoneEnhancement-Test_LIBRARIES}" "${BoneEnhancementUnitTests}")
